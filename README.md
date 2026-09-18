@@ -4,7 +4,7 @@ Portfólio pessoal desenvolvido para a disciplina de **Programação Web (GAC116
 
 O objetivo deste projeto é apresentar um pouco sobre mim, meus interesses, habilidades e projetos na área de tecnologia, com foco em **Desenvolvimento Web e Design UX/UI**.
 
-🔗 **Acesse o site:** [GitHub Pages](Link)
+🔗 **Acesse o site:** [Página Pessoal](https://clarisse-pimentel.github.io/pagina-pessoal/)
 
 ---
 
