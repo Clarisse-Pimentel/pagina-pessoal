@@ -1,12 +1,142 @@
-/* Ajusta tamanho da imagem de perfil */
-.profile-img {
-    width: 160px;
-    height: 160px;
-    border-radius: 999px;
-    border: 4px solid rgba(255, 255, 255, 0.7);
+:root {
+    --bs-primary: #8e7cc3;
+    --bs-primary-rgb: 142, 124, 195;
 }
 
-/* Melhorar espaçamento do âncora/título (por causa da navbar fixa) */
+
+[data-bs-theme="dark"] {
+    --bs-primary: #a3376b;
+    --bs-primary-rgb: 163, 55, 107;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: color-mix(in srgb, var(--bs-primary) 85%, black);
+    --bs-btn-hover-border-color: color-mix(in srgb, var(--bs-primary) 80%, black);
+    --bs-btn-active-bg: color-mix(in srgb, var(--bs-primary) 75%, black);
+    --bs-btn-active-border-color: color-mix(in srgb, var(--bs-primary) 70%, black);
+}
+
+.btn-outline-primary {
+    --bs-btn-color: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-bg: var(--bs-primary);
+    --bs-btn-hover-border-color: var(--bs-primary);
+    --bs-btn-active-bg: var(--bs-primary);
+    --bs-btn-active-border-color: var(--bs-primary);
+}
+
+h1, h2, h3, .navbar-brand {
+    font-family: "Quicksand", sans-serif;
+}
+
+.profile-img {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 24px;
+    border: 4px solid rgba(255, 255, 255, 0.7);
+    transition: box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+    box-shadow: 0 0 0 6px rgba(var(--bs-primary-rgb), 0.25);
+}
+
 section {
     scroll-margin-top: 90px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar.is-scrolled {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: none;
+}
+
+.tech-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem 1.4rem;
+    align-items: center;
+}
+
+.tech-strip span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+}
+
+.tech-strip i {
+    font-size: 1.15rem;
+}
+
+.tech-strip .fa-html5 { color: #e34f26; }
+.tech-strip .fa-css3-alt { color: #1572b6; }
+.tech-strip .fa-js { color: #d4ac0d; }
+.tech-strip .fa-bootstrap { color: #7952b3; }
+.tech-strip .fa-react { color: #149eca; }
+.tech-strip .fa-git-alt { color: #f05032; }
+.tech-strip .fa-java { color: #ed8b00; }
+
+.profile-badges .badge {
+    font-size: 0.95rem;
+    padding: 0.55em 0.9em;
+}
+
+.contact-card {
+    background: linear-gradient(135deg, #2b1330, #1a0e1f);
+    border: 1px solid rgba(var(--bs-primary-rgb), 0.4);
+    color: #f1eaf5;
+}
+
+.contact-card i {
+    color: #cba8ec;
+}
+
+.contact-card a {
+    color: #f1eaf5;
+}
+
+.contact-card a:hover {
+    color: #cba8ec;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--bs-primary);
+    font-weight: 600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reveal {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+    html {
+        scroll-behavior: auto;
+    }
 }
