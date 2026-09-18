@@ -11,7 +11,7 @@ O objetivo deste projeto é apresentar um pouco sobre mim, meus interesses, habi
 ## 🛠️ Tecnologias & Ferramentas Utilizadas
 
 - **Linguagens & Marcação:** HTML5, CSS3 e JavaScript
-- **Framework CSS:** Bootstrap
+- **Framework CSS:** Bootstrap & Bulma
 - **Ícones:** Bootstrap Icons
 - **Controle de Versão:** Git e GitHub
 - **Ambiente:** Ubuntu & VS Code
@@ -26,10 +26,26 @@ PAGINA-PESSOAL/
 ├── bootstrap/
 │   ├── assets/
 │   │   ├── css/
+|   |   |   └── styles.css
 │   │   ├── img/
+|   |   |   └── perfil.jpeg
 │   │   └── js/
+|   |       └── script.js
 │   │
 │   └── index.html
 │
+├── bulma/
+│   ├── assets/
+│   │   ├── css/
+|   |   |   └── styles.css
+│   │   ├── img/
+|   |   |   └── perfil.jpeg
+│   │   └── js/
+|   |       └── script.js
+|   |
+|   └── index.html
+|
+|── index.html
+|── styles.css
 ├── LICENSE
 └── README.md

@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Pessoal</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar is-spaced" role="navigation" aria-label="main navigation">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item has-text-weight-semibold" href="#top">
+            <i class="fa-solid fa-code mr-2"></i>&nbsp;Meu Portfólio
+          </a>
+          <a
+            role="button"
+            class="navbar-burger"
+            id="navBurger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navMenu"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navMenu" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item" href="#sobre">Sobre</a>
+            <a class="navbar-item" href="#habilidades">Habilidades</a>
+            <a class="navbar-item" href="#projetos">Projetos</a>
+            <a class="navbar-item" href="#interesses">Interesses</a>
+            <a class="navbar-item" href="#contato">Contato</a>
+            <div class="navbar-item">
+              <button id="themeToggle" class="button is-small theme-toggle-btn">
+                <span class="icon"><i class="fa-solid fa-moon"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <header id="top" class="section pb-4">
+      <div class="container">
+        <div class="columns is-vcentered">
+         <div class="column is-4 has-text-centered">
+            <div class="is-inline-block">
+                <img
+                class="profile-img box p-0 mb-3"
+                src="assets/img/perfil.jpeg"
+                alt="Foto de perfil"
+                />
+                <div class="profile-badges">
+                    <span class="tag is-primary mr-1">Ciência da Computação</span>
+                    <span class="tag">UFLA</span>
+                </div>
+            </div>
+         </div>
+          <div class="column is-8">
+            <h1 class="title is-3">
+              Olá! Eu sou <span class="has-text-primary">Clarisse Lacerda Pimentel</span>
+            </h1>
+            <p class="subtitle is-5 has-text-grey">
+              Graduanda em Ciência da Computação
+            </p>
+            <div class="buttons">
+              <a class="button is-primary" href="#projetos">
+                <span class="icon"><i class="fa-solid fa-diagram-project"></i></span>
+                <span>Ver projetos</span>
+              </a>
+              <a class="button is-primary is-outlined" href="#contato">
+                <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+                <span>Contato</span>
+              </a>
+              <a
+                class="button is-primary is-outlined"
+                href="https://github.com/Clarisse-Pimentel"
+                target="_blank"
+              >
+                <span class="icon"><i class="fa-brands fa-github"></i></span>
+                <span>GitHub</span>
+              </a>
+              <a
+                class="button is-primary is-outlined"
+                href="https://www.linkedin.com/in/clarisselpim/"
+                target="_blank"
+              >
+                <span class="icon"><i class="fa-brands fa-linkedin"></i></span>
+                <span>LinkedIn</span>
+              </a>
+            </div>
+            <hr />
+            <div class="columns is-mobile is-multiline">
+              <div class="column is-6">
+                <div class="box py-3 px-4">
+                  <p class="mb-1">
+                    <i class="fa-solid fa-graduation-cap has-text-primary mr-2"></i>
+                    <strong>Curso</strong>
+                  </p>
+                  <p class="has-text-grey">
+                    Bacharelado em Ciência da Computação - Universidade
+                    Federal de Lavras (UFLA).
+                  </p>
+                </div>
+              </div>
+              <div class="column is-6">
+                <div class="box py-3 px-4">
+                  <p class="mb-1">
+                    <i class="fa-solid fa-bullseye has-text-primary mr-2"></i>
+                    <strong>Objetivo</strong>
+                  </p>
+                  <p class="has-text-grey">
+                    Aprimorar habilidades em web e desenvolver projetos
+                    práticos.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="sobre" class="section py-4">
+        <div class="container">
+          <h2 class="title is-4 mb-1">Sobre</h2>
+          <p class="has-text-grey mb-4">
+            Curiosa e sempre disposta a aprender, busco soluções criativas
+            para transformar problemas em novas possibilidades.
+          </p>
+          <div class="columns">
+            <div class="column is-7">
+              <div class="box">
+                <p class="mb-2">
+                  Gosto de criar aplicações web, aprender coisas novas e
+                  colocar ideias em prática por meio de projetos.
+                </p>
+                <p class="has-text-grey mb-0">
+                  Nesta página, apresento minhas habilidades, interesses e
+                  projetos desenvolvidos.
+                </p>
+              </div>
+            </div>
+            <div class="column is-5">
+              <div class="box">
+                <h3 class="title is-6">Informações rápidas</h3>
+                <p class="mb-2">
+                  <i class="fa-solid fa-location-dot has-text-primary mr-2"></i>
+                  <strong>Cidade:</strong> Lavras/MG
+                </p>
+                <p class="mb-2">
+                  <i class="fa-solid fa-language has-text-primary mr-2"></i>
+                  <strong>Idiomas:</strong> Português, Inglês (avançado)
+                </p>
+                <p class="mb-0">
+                  <i class="fa-solid fa-laptop-code has-text-primary mr-2"></i>
+                  <strong>Área:</strong> Desenvolvimento Web
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section py-4">
+        <div class="container">
+          <h2 class="title is-4 mb-1">Habilidades</h2>
+          <p class="has-text-grey mb-4">Tecnologias e competências.</p>
+          <div class="columns">
+            <div class="column is-6">
+              <div class="box h-100">
+                <h3 class="title is-6">Tecnologias</h3>
+                <div class="tags">
+                  <span class="tag is-primary is-rounded">HTML</span>
+                  <span class="tag is-primary is-rounded">CSS</span>
+                  <span class="tag is-primary is-rounded">JavaScript</span>
+                  <span class="tag is-primary is-rounded">Bootstrap</span>
+                  <span class="tag is-primary is-rounded">React</span>
+                  <span class="tag is-primary is-rounded">Git/GitHub</span>
+                  <span class="tag is-primary is-rounded">Java</span>
+                </div>
+                <hr />
+                <h3 class="title is-6">Competências</h3>
+                <ul>
+                  <li>Construção de páginas responsivas</li>
+                  <li>Manipulação do DOM e eventos</li>
+                  <li>Organização de projetos e versionamento</li>
+                  <li>Boas práticas de legibilidade de código</li>
+                </ul>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="box h-100">
+                <h3 class="title is-6">Trabalho com</h3>
+                <div class="tech-strip">
+                  <span><i class="fa-brands fa-html5"></i>HTML</span>
+                  <span><i class="fa-brands fa-css3-alt"></i>CSS</span>
+                  <span><i class="fa-brands fa-js"></i>JavaScript</span>
+                  <span><i class="fa-brands fa-bootstrap"></i>Bootstrap</span>
+                  <span><i class="fa-brands fa-react"></i>React</span>
+                  <span><i class="fa-brands fa-git-alt"></i>Git/GitHub</span>
+                  <span><i class="fa-brands fa-java"></i>Java</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="section py-4">
+        <div class="container">
+          <h2 class="title is-4 mb-1">Projetos</h2>
+          <p class="has-text-grey mb-4">Alguns trabalhos já desenvolvidos.</p>
+          <div class="columns is-multiline">
+            <div class="column is-4">
+              <div class="box h-100 is-flex is-flex-direction-column">
+                <div class="is-flex is-justify-content-space-between is-align-items-start mb-2">
+                  <h3 class="title is-6 mb-1">Jogo da Memória</h3>
+                </div>
+                <div class="tags mb-2">
+                  <span class="tag is-primary">HTML</span>
+                  <span class="tag is-primary">CSS</span>
+                  <span class="tag is-primary">JavaScript</span>
+                </div>
+                <p class="has-text-grey is-size-7">
+                  Implementação de um jogo com verificação de vitória e
+                  reinício.
+                </p>
+                <ul class="is-size-7 mb-4">
+                  <li>Matriz</li>
+                  <li>Manipulação do DOM</li>
+                  <li>Animação de personagens</li>
+                </ul>
+                <div class="buttons mt-auto">
+                  <a
+                    class="button is-small is-primary is-outlined"
+                    href="https://github.com/Clarisse-Pimentel/Jogo-da-Memoria"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                    <span>Repositório</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="box h-100 is-flex is-flex-direction-column">
+                <h3 class="title is-6 mb-1">Zoonix</h3>
+                <div class="tags mb-2">
+                  <span class="tag is-primary">HTML</span>
+                  <span class="tag is-primary">CSS</span>
+                  <span class="tag is-primary">JavaScript</span>
+                  <span class="tag is-primary">Python</span>
+                </div>
+                <p class="has-text-grey is-size-7">
+                  Implementação de um sistema de gerenciamento de uma
+                  clínica veterinária.
+                </p>
+                <ul class="is-size-7 mb-4">
+                  <li>CRUD</li>
+                  <li>API Rest</li>
+                  <li>Integração com Banco de Dados</li>
+                </ul>
+                <div class="buttons mt-auto">
+                  <a
+                    class="button is-small is-primary is-outlined"
+                    href="https://github.com/Clarisse-Pimentel/Zoonix"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                    <span>Repositório</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="column is-4">
+              <div class="box h-100 is-flex is-flex-direction-column">
+                <h3 class="title is-6 mb-1">Projeto-Trainee-Emakers-26-1</h3>
+                <div class="tags mb-2">
+                  <span class="tag is-primary">HTML</span>
+                  <span class="tag is-primary">CSS</span>
+                  <span class="tag is-primary">JavaScript</span>
+                </div>
+                <p class="has-text-grey is-size-7">
+                  Implementação frontend de uma plataforma de cursos.
+                </p>
+                <ul class="is-size-7 mb-4">
+                  <li>React</li>
+                  <li>Tela com rolagem</li>
+                  <li>Componentes (cards, navbar)</li>
+                </ul>
+                <div class="buttons mt-auto">
+                  <a
+                    class="button is-small is-primary is-outlined"
+                    href="https://github.com/Clarisse-Pimentel/Projeto-Trainee_Emakers-26-1"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span class="icon"><i class="fa-brands fa-github"></i></span>
+                    <span>Repositório</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="interesses" class="section py-4">
+        <div class="container">
+          <h2 class="title is-4 mb-1">Interesses</h2>
+          <p class="has-text-grey mb-4">Áreas que eu gosto de estudar/pesquisar.</p>
+          <div class="columns">
+            <div class="column is-6">
+              <div class="box h-100">
+                <ul class="mb-0">
+                  <li>Desenvolvimento Web (frontend e backend)</li>
+                  <li>Design UX/UI</li>
+                  <li>Desenvolvimento Mobile</li>
+                  <li>Desenvolvimento de Jogos</li>
+                  <li>Prototipação e Interface</li>
+                </ul>
+              </div>
+            </div>
+            <div class="column is-6">
+              <div class="box h-100">
+                <h3 class="title is-6">Atividades</h3>
+                <p class="has-text-grey mb-2">
+                  Participo de projetos acadêmicos e gosto de aprender
+                  criando coisas.
+                </p>
+                <div class="tags">
+                  <span class="tag"><i class="fa-solid fa-book mr-1"></i>Estudos</span>
+                  <span class="tag"><i class="fa-solid fa-people-group mr-1"></i>Trabalho em equipe</span>
+                  <span class="tag"><i class="fa-solid fa-terminal mr-1"></i>Projetos práticos</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="section py-4">
+        <div class="container">
+          <h2 class="title is-4 mb-1">Contato</h2>
+          <p class="has-text-grey mb-4">Vamos conversar!</p>
+          <div class="box contact-card">
+            <div class="is-flex is-flex-direction-column is-flex-direction-row-tablet is-justify-content-space-between">
+              <p class="mb-2 mb-0-tablet">
+                <i class="fa-solid fa-envelope mr-2"></i>clarilpim@gmail.com
+              </p>
+              <p class="mb-2 mb-0-tablet">
+                <i class="fa-brands fa-github mr-2"></i>
+                <a href="https://github.com/Clarisse-Pimentel" target="_blank" rel="noreferrer"
+                  >github.com/Clarisse-Pimentel</a
+                >
+              </p>
+              <p class="mb-0">
+                <i class="fa-brands fa-linkedin mr-2"></i>
+                <a href="https://www.linkedin.com/in/clarisselpim/" target="_blank" rel="noreferrer"
+                  >linkedin.com/in/clarisselpim</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer py-4">
+      <div class="container is-flex is-justify-content-space-between is-flex-wrap-wrap">
+        <p class="has-text-grey is-size-7">
+          © <span id="year"></span> Página Pessoal — Clarisse Lacerda Pimentel
+        </p>
+        <p class="has-text-grey is-size-7">
+          Feito com HTML + Bulma + um pouco de CSS/JS
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
